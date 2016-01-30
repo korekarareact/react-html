@@ -1,0 +1,185 @@
+.content {
+  clear: left;
+  padding-bottom: 20px;
+}
+
+.principleBox .demo-block-title {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+  font-size: 22px;
+  line-height: 24px;
+  color: black;
+}
+
+.principleList .principle {
+  width:100%;
+}
+.principle {
+  box-sizing: border-box;
+  padding: 0 6px;
+  float:left;
+}
+
+.principleTitle{
+  font-size: 18px;
+}
+.principleText{
+  padding-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  margin-bottom: 24px;
+}
+
+div {
+  display: block;
+}
+
+/*skill*/
+.skill-categoryrow {
+  clear: left;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+
+}
+.skillname {
+  float: left;
+  margin: 2px;
+}
+.skilltext {
+  display: none;
+}
+
+.skill-box .skill-box-title {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+  font-size: 22px;
+  line-height: 24px;
+  color: black;
+}
+
+.skill-box {
+  margin-bottom: 50px;
+}
+
+.on {
+  display: inline-block;
+  opacity: .9;
+  float: left;
+  clear: left;
+  width: 100%;
+  margin: 10px;
+  background-color: #E0E0E0;
+  color: black;
+  padding: 5px;
+}
+
+.off {
+  display: none;
+  opacity: 0;
+}
+
+/*img*/
+.topimg img {
+  align="center";
+  max-width: 100%;
+  height:auto;
+  padding-bottom:15px;
+}
+
+.topimg{
+  text-align: center;
+}
+
+/*topbar*/
+.topbar{
+  display: block;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  max-width: 900px;
+  z-index: 1000;
+  margin: 0 auto;
+  opacity: 0.7;
+  visibility:visible;
+}
+.topbar a {
+  text-indent: -9999px;
+  display: block;
+  width: 222px;
+  height: 48px;
+  overflow: hidden;
+  background-size: 222px 48px;
+  background-image:url('src/logo-01.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*introduce*/
+.intro {
+  clear: left;
+}
+.introduceBox .intro-title {
+  margin-bottom: 0px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+  font-size: 22px;
+  line-height: 24px;
+  color: black;
+}
+.introduceList{
+  clear: left;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.intro-school {
+  font-size: 16px;
+  padding-left: 10px;
+
+}
+
+.intro-school-img{
+  display: inline-block;
+  max-width: 180px;
+
+}
+
+/*working experiment*/
+
+.workingexperiment .work-title {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+  font-size: 22px;
+  line-height: 24px;
+  color: black;
+}
+
+.doprbannar{
+  width: 80%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.during {
+  display: none;
+}
+
+.experimenttext {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  clear: left;
+}
