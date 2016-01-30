@@ -72,7 +72,6 @@ div {
 
 .on {
   display: inline-block;
-  opacity: .9;
   float: left;
   clear: left;
   width: 100%;
@@ -84,7 +83,6 @@ div {
 
 .off {
   display: none;
-  opacity: 0;
 }
 
 /*img*/
@@ -121,7 +119,7 @@ div {
   height: 48px;
   overflow: hidden;
   background-size: 222px 48px;
-  background-image:url('src/logo-01.gif');
+  background-image:url('../src/logo-01.gif');
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -182,4 +180,33 @@ div {
   padding-right: 10px;
   font-size: 18px;
   clear: left;
+}
+
+/*link*/
+.portfolioBox .portfolio-title{
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+  font-size: 22px;
+  line-height: 24px;
+  color: black;
+}
+
+.portfoliotext {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  clear: left;
+}
+
+.portfoliolink {
+  padding-left: 10px;
+}
+
+
+/*footer*/
+.footer{
+  border-top: 1px solid #0268cc;
+  text-align: center;
+  padding-top: 10px;
 }

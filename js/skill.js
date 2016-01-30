@@ -7,7 +7,7 @@ var SkillCategoryRow = React.createClass ({
         );
     }
 });
-var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
+
 var SkillRow = React.createClass ({
     getInitialState: function() {
       return {switch: false};
